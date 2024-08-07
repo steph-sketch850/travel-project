@@ -1,7 +1,22 @@
-h1 {
+body {
     font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 144px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7e70b7;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.4)), url("../images/washingtonstate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
