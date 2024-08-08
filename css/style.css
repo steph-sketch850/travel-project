@@ -58,7 +58,46 @@ header a {
     letter-spacing: 3px;
 }
 
-@media (max-width: 900px) {
+footer {
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgb(39, 32, 68, 0.9)), url("../images/washingtonstate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-right: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+}
+
+@media (max-width: 960px) {
     header {
         padding: 60px 0;
     }
