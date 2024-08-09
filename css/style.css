@@ -73,6 +73,7 @@ body {
     letter-spacing: 3px;
 }
 
+
 section {
     max-width: 1200px;
     margin: 0 auto;
@@ -255,5 +256,9 @@ footer a {
 
     .embed {
         aspect-ratio: 16 / 9;
+    }
+
+    .responsive-video {
+        grid-template-columns: 1fr;
     }
 }
